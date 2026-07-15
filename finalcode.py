@@ -20,15 +20,15 @@ import openpyxl
 # Gmail設定
 # ──────────────────────────────────────────
 
-GMAIL_ADDRESS  = "ryo771166@gmail.com"
-GMAIL_APP_PASS = "pwljhmweftvgqihl"
+GMAIL_ADDRESS  = "利用者のGmailアドレス"
+GMAIL_APP_PASS = "利用者のGoogleアカウントのアプリパスワード"
 
 # ──────────────────────────────────────────
 # LINE設定
 # ──────────────────────────────────────────
 
-LINE_ACCESS_TOKEN = "Nu06zHv7sivSMO9tkOhL8FaD/YkfMG5cdh5tKs1f+u1S1+vyfTm7bDQvBEducQhgmzYtFvmA6esuZBMMfwr+nAY/7UntUfmX/5i/f+n/YM3yi0Sjd2opKueDCSbBLQU8qw7cZG8UT3iQFMDabwN6ZgdB04t89/1O/w1cDnyilFU="
-USER_ID = "U2b467b664b0d41f38f0e1129d26eef24"
+LINE_ACCESS_TOKEN = "用意したLinebotのアクセストークン"
+USER_ID = "利用者のLineユーザーID"
 
 
 # ──────────────────────────────────────────
@@ -43,7 +43,7 @@ COOLDOWN_SECONDS = 15
 # Nature Remo 温湿度取得
 # ──────────────────────────────────────────
 
-ACCESS_TOKEN = "ory_at_yKRB3nBsqzIBb49BecVG6yJ2kP2R7J_vfPTy9qsdEZk.DvcHE_PRzmJ3Icotnfhb9brVG8cnkRnPi6HKQo-r3JQ"
+ACCESS_TOKEN = "利用者のRemo3のアクセストークン"
 
 def get_temperature_humidity() -> dict:
     try:
